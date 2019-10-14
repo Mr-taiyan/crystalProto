@@ -29,4 +29,14 @@
     <view>热销新品</view>
     <view>热销定制</view>
   </view>
+  <view class="popular-stuffs">
+    <view class="title">
+      <image src="/images/title-popular.png" mode="widthFix" />
+    </view>
+    <view class="gallery">
+      <view class="img-block" wx:for="{{images1}}" wx:key="*this">
+        <image src="{{item}}" mode="widthFix" style="width: 314rpx;" />
+      </view>
+    </view>
+  </view>
 </view>

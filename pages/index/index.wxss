@@ -35,3 +35,20 @@
   text-align: center;
   border-radius: 35rpx;
 }
+
+.popular-stuffs {
+  display: flex;
+  flex-flow: column;
+  width: 750rpx;
+  height: 600rpx;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-block {
+  width: 314rpx;
+  flex-shrink: 0;
+}
