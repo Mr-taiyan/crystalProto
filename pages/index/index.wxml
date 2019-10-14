@@ -11,4 +11,14 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view> -->
-<view class="test">hello world</view>
+<view class="container">
+  <view class="header">
+    <swiper indicator-dots="{{true}}" class="banner">
+      <block wx:for="{{banners}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item}}" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

@@ -3,7 +3,9 @@
 const app = getApp();
 
 Page({
-  data: {},
+  data: {
+    banners: ["/images/banner.png", "/images/banner.png", "/images/banner.png"]
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
