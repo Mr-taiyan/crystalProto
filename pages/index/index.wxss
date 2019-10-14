@@ -19,3 +19,12 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.test {
+  margin: 20px;
+  width: 350rpx;
+  height: 300rpx;
+  border: solid 1rpx;
+  border-radius: 12px;
+  box-shadow: 0 0 1em red;
+}
