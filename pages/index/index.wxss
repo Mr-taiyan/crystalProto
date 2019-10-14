@@ -17,3 +17,21 @@
   display: flex;
   flex-flow: column;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700rpx;
+  height: 150rpx;
+}
+
+.nav view {
+  font-size: 30rpx;
+  width: 150rpx;
+  height: 70rpx;
+  background: gray;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 35rpx;
+}

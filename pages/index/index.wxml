@@ -23,4 +23,10 @@
       </swiper>
     </view>
   </view>
+  <view class="nav">
+    <view>新品</view>
+    <view>网红新品</view>
+    <view>热销新品</view>
+    <view>热销定制</view>
+  </view>
 </view>
