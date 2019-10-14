@@ -12,3 +12,8 @@
   width: 750rpx;
   height: 560rpx;
 }
+
+.page-body {
+  display: flex;
+  flex-flow: column;
+}
