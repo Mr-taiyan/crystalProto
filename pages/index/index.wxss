@@ -54,7 +54,7 @@
 
 .img-block {
   width: 314rpx;
-  height: 447rpx;
+  height: 480rpx;
   margin-left: 27rpx;
 }
 
