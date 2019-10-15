@@ -8,6 +8,10 @@ Page({
     images1: [
       "/images/image1-1.png",
       "/images/image1-2.png",
+      "/images/image1-3.png",
+      "/images/image1-4.png",
+      "/images/image1-1.png",
+      "/images/image1-2.png",
       "/images/image1-3.png"
     ]
   },

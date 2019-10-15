@@ -17,7 +17,7 @@
       <swiper indicator-dots="{{true}}" class="banner">
         <block wx:for="{{banners}}" wx:key="*this">
           <swiper-item>
-            <image src="{{item}}" />
+            <image src="{{item}}"  />
           </swiper-item>
         </block>
       </swiper>
@@ -41,5 +41,34 @@
         </view>
       </view>
     </scroll-view>
+    
+  </view>
+  <view class="popular-stuffs">
+    <view class="title">
+      <image src="/images/title-popular.png" mode="widthFix" />
+    </view>
+    <scroll-view scroll-x="{{true}}">
+      <view class="gallery">
+        <view class="img-block" wx:for="{{images1}}" wx:key="*this">
+          <image src="{{item}}" mode="widthFix" style="width:314rpx " />
+          <view>产品</view>
+        </view>
+      </view>
+    </scroll-view>
+    
+  </view>
+  <view class="popular-stuffs">
+    <view class="title">
+      <image src="/images/title-popular.png" mode="widthFix" />
+    </view>
+    <scroll-view scroll-x="{{true}}">
+      <view class="gallery">
+        <view class="img-block" wx:for="{{images1}}" wx:key="*this">
+          <image src="{{item}}" mode="widthFix" style="width:314rpx " />
+          <view>产品</view>
+        </view>
+      </view>
+    </scroll-view>
+    
   </view>
 </view>
