@@ -17,19 +17,18 @@ Page({
   },
   //事件处理函数
   bindViewTap: function(e) {
-    let prefix =
-      "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master";
+    let prefix = "https://gitee.com/cty9388/crystalProto/raw/master";
     let currentImg = prefix + e.currentTarget.dataset.src;
     wx.previewImage({
       current: currentImg,
       urls: [
-        "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master/images/image1-1.png",
-        "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master/images/image1-2.png",
-        "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master/images/image1-3.png",
-        "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master/images/image1-4.png",
-        "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master/images/image1-1.png",
-        "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master/images/image1-2.png",
-        "https://raw.githubusercontent.com/Mr-taiyan/crystalProto/master/images/image1-3.png"
+        prefix + "/images/image1-1.png",
+        prefix + "/images/image1-2.png",
+        prefix + "/images/image1-3.png",
+        prefix + "/images/image1-4.png",
+        prefix + "/images/image1-1.png",
+        prefix + "/images/image1-2.png",
+        prefix + "/images/image1-3.png"
       ],
       success: function(e) {
         console.log(e);
