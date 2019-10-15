@@ -36,7 +36,8 @@
     <scroll-view scroll-x="{{true}}">
       <view class="gallery">
         <view class="img-block" wx:for="{{images1}}" wx:key="*this">
-          <image src="{{item}}" mode="widthFix" style="width:314rpx" />
+          <image src="{{item}}" mode="widthFix" style="width:314rpx " />
+          <view>cpin1</view>
         </view>
       </view>
     </scroll-view>

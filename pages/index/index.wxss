@@ -23,7 +23,8 @@
   justify-content: space-between;
   align-items: center;
   width: 700rpx;
-  height: 150rpx;
+  height: 67rpx;
+  margin-top: 45rpx;
 }
 
 .nav view {
@@ -41,14 +42,23 @@
   flex-flow: column;
   width: 750rpx;
   height: 600rpx;
+  margin-top: 15rpx;
 }
 
 .gallery {
   display: flex;
+  margin-left: 12rpx;
+  margin-top: 15rpx;
   /* justify-content: space-around; */
 }
 
 .img-block {
   width: 314rpx;
-  flex-shrink: 0;
+  height: 447rpx;
+  margin-left: 27rpx;
+}
+
+.img-block image {
+  border-radius: 20rpx;
+  box-shadow: 0 0 0.5em gray;
 }
