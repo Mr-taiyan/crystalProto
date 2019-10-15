@@ -1,15 +1,10 @@
 /**index.wxss**/
+.container{
+  background-color: #e2dcdc;
+}
 swiper-item image{
   width: 100%;
   height: 100%;
-}
-.test {
-  margin: 20px;
-  width: 350rpx;
-  height: 300rpx;
-  border: solid 1rpx;
-  border-radius: 12px;
-  box-shadow: 0 0 1em red;
 }
 
 .banner {
@@ -39,16 +34,18 @@ swiper-item image{
   line-height: 70rpx;
   text-align: center;
   border-radius: 35rpx;
-  color: white;
+  color: #fcfcfc;
 }
 
 .popular-stuffs {
   display: flex;
   flex-flow: column;
   width: 750rpx;
-  height: 600rpx;
+  height: 643rpx;
   margin-top: 15rpx;
   border-bottom: 1rpx solid #ededed;
+  color: #616060;
+  
 }
 .title image{
   width: 100%;
@@ -69,6 +66,17 @@ swiper-item image{
 
 .img-block image {
   border-radius: 20rpx;
-  box-shadow: 0 0 0.5em gray;
+  box-shadow: 0 0 0.5em #5a5959;
   margin-right: 39rpx;
+}
+.footer{
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  color: #7c7a7a;
+}
+.footer-title{
+  margin: 180rpx 0 0 0;
+  padding: 50rpx 0 90rpx 0;
+  background-color: #e2dcdc
 }

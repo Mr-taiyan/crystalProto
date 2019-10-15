@@ -14,7 +14,7 @@
 <view class="container">
   <view class="page-body">
     <view class="header">
-      <swiper indicator-dots="{{true}}" class="banner">
+      <swiper indicator-dots="{{true}}" class="banner" autoplay="{{true}}">
         <block wx:for="{{banners}}" wx:key="*this">
           <swiper-item>
             <image src="{{item}}" />
@@ -44,7 +44,7 @@
   </view>
   <view class="popular-stuffs">
     <view class="title">
-      <image src="/images/title-popular.png" mode="widthFix" />
+      <image src="/images/nav1.png" mode="widthFix" />
     </view>
     <scroll-view scroll-x="{{true}}">
       <view class="gallery">
@@ -57,7 +57,7 @@
   </view>
   <view class="popular-stuffs">
     <view class="title">
-      <image src="/images/title-popular.png" mode="widthFix" />
+      <image src="/images/nav2.png" mode="widthFix" />
     </view>
     <scroll-view scroll-x="{{true}}">
       <view class="gallery">
@@ -67,5 +67,8 @@
         </view>
       </view>
     </scroll-view>
+  </view>
+  <view class="footer">
+    <view class="footer-title">Copyright © FALESIM</view>
   </view>
 </view>
