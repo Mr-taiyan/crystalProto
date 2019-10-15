@@ -33,10 +33,12 @@
     <view class="title">
       <image src="/images/title-popular.png" mode="widthFix" />
     </view>
-    <view class="gallery">
-      <view class="img-block" wx:for="{{images1}}" wx:key="*this">
-        <image src="{{item}}" mode="widthFix" style="width: 314rpx;" />
+    <scroll-view scroll-x="{{true}}">
+      <view class="gallery">
+        <view class="img-block" wx:for="{{images1}}" wx:key="*this">
+          <image src="{{item}}" mode="widthFix" style="width:314rpx" />
+        </view>
       </view>
-    </view>
+    </scroll-view>
   </view>
 </view>
