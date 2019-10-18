@@ -7,7 +7,9 @@ Page({
     navTitle: "",
     navBackground: "gray",
     navColor: "",
-    navLoading: false
+    navLoading: false,
+    imgSrc:
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/chairs.JPG"
   },
 
   /**

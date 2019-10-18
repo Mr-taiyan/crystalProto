@@ -1,7 +1,26 @@
 /* pages/details/details.wxss */
-
+view {
+  margin: 0;
+  padding: 0;
+}
+image {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 .ext {
   font-size: 5px;
   line-height: 7px;
   color: red;
+}
+
+.page-body {
+}
+
+.detail-img {
+  background: green;
+}
+
+.detail-img image {
+  width: 100%;
 }
