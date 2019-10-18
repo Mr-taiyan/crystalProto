@@ -1,1 +1,7 @@
 /* pages/details/details.wxss */
+
+.ext {
+  font-size: 5px;
+  line-height: 7px;
+  color: red;
+}

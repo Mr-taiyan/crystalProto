@@ -4,7 +4,7 @@ Page({
    * Page initial data
    */
   data: {
-    navTitle: "cty's test",
+    navTitle: "",
     navBackground: "gray",
     navColor: "",
     navLoading: false
