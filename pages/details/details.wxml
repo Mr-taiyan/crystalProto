@@ -13,9 +13,9 @@
             <view class="partner-column-reduce">
                 线上采购减{{priceDiscountPercentage}}%: ￥{{priceDiscount}}
             </view>
-        </view>
-        <view class="parter-column-withdraw">
-            合伙人提现{{priceProfitPercentage}}%: ￥{{priceProfit}}
+            <view class="partner-column-withdraw">
+                合伙人提现{{priceProfitPercentage}}%: ￥{{priceProfit}}
+            </view>
         </view>
     </view>
 </view>

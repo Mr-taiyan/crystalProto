@@ -9,7 +9,12 @@ Page({
     navColor: "",
     navLoading: false,
     imgSrc:
-      "https://gitee.com/cty9388/crystalProto/raw/master/images/chairs.JPG"
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/chairs.JPG",
+    price: 22800,
+    priceDiscountPercentage: 50,
+    priceDiscount: -11400,
+    priceProfitPercentage: 60,
+    priceProfit: 11400
   },
 
   /**
