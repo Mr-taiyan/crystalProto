@@ -4,4 +4,18 @@
     <view class="detail-img">
         <image src="{{imgSrc}}" mode="widthFix" />
     </view>
+    <view class="price-wraper">
+        <view class="price-column">
+            <view class="price-title">品牌价</view>
+            <view class="price-number">￥{{price}}</view>
+        </view>
+        <view class="partner-column">
+            <view class="partner-column-reduce">
+                线上采购减{{priceDiscountPercentage}}%: ￥{{priceDiscount}}
+            </view>
+        </view>
+        <view class="parter-column-withdraw">
+            合伙人提现{{priceProfitPercentage}}%: ￥{{priceProfit}}
+        </view>
+    </view>
 </view>
