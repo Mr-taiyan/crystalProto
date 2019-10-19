@@ -70,3 +70,12 @@ image {
   margin-bottom: 13rpx;
   color: #db2323;
 }
+
+.product-introduction-wraper {
+  background: #e2dcdc;
+  padding: 42rpx 60rpx;
+}
+
+.product-title {
+  font-size: 35rpx;
+}
