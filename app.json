@@ -1,11 +1,37 @@
 {
-  "pages": ["pages/index/index", "pages/details/details"],
+  "pages": [
+    "pages/index/index",
+    "pages/details/details",
+    "pages/category/category",
+    "pages/custom/custom",
+    "pages/aboutCompany/aboutCompany"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "类别",
+        "pagePath": "pages/category/category"
+      },
+      {
+        "text": "定制",
+        "pagePath": "pages/custom/custom"
+      },
+      {
+        "text": "公司简介",
+        "pagePath": "pages/aboutCompany/aboutCompany"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
