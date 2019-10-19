@@ -1,1 +1,29 @@
 /* pages/category/category.wxss */
+.page-body {
+  position: relative;
+  background: #eee;
+}
+
+.side-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 122rpx;
+  background: red;
+}
+
+.category-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  widows: 100%;
+  height: 215rpx;
+}
+
+.category-title {
+  width: 82rpx;
+}
+
+.active {
+  background: greenyellow;
+}

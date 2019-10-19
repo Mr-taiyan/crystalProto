@@ -4,7 +4,8 @@ Page({
    * Page initial data
    */
   data: {
-    productInfo: {}
+    productInfo: {},
+    currentCategory: 0
   },
 
   /**
@@ -62,5 +63,16 @@ Page({
   /**
    * Called when user click on the top right corner to share
    */
-  onShareAppMessage: function() {}
+  onShareAppMessage: function() {},
+
+  clickTap(event) {
+    let target = event.target;
+    let dataset = target.dataset;
+    let index = dataset.ind;
+
+    this.setData({
+      currentCategory: index
+    });
+    console.log(this.data.currentCategory);
+  }
 });

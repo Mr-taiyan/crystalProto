@@ -1,7 +1,9 @@
 <!-- pages/category/category.wxml -->
 <view class="page-body">
     <view class="side-bar">
-        <view class="category-item" wx:for="{{productInfo}}">{{item.typeName}}</view>
+        <view class="category-item {{currentCategory === index ? 'active' : ''}}" wx:for="{{productInfo}}" bindtap="clickTap" data-ind="{{index}}" activeClass="active">
+            <view class="category-title">{{item.typeName}}</view>
+        </view>
     </view>
-    <view class="page-content"></view>
+    <view class="page-content">test</view>
 </view>
