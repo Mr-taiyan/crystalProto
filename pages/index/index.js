@@ -43,5 +43,13 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     });
+  },
+  onTapPic: function() {
+    wx.navigateTo({
+      url: "/pages/details/details",
+      success: result => {},
+      fail: () => {},
+      complete: () => {}
+    });
   }
 });

@@ -35,7 +35,7 @@
     </view>
     <scroll-view scroll-x="{{true}}">
       <view class="gallery">
-        <view class="img-block" wx:for="{{images1}}" wx:key="*this" bindtap="bindViewTap" data-src="{{item}}">
+        <view class="img-block" wx:for="{{images1}}" wx:key="*this" bindtap="onTapPic" data-src="{{item}}">
           <image src="{{item}}" mode="widthFix" style="width:314rpx " />
           <view>产品</view>
         </view>
