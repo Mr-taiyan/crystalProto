@@ -16,7 +16,16 @@ Page({
       productInfo: [
         {
           typeName: "水晶茶具",
-          products: []
+          products: [
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
+            }
+          ]
         },
         {
           typeName: "水晶家私",
