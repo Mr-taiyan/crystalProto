@@ -13,7 +13,7 @@
                 <view class="product-price">¥812</view>
                 <view class="partner-column">
                     <view class="partner-column-reduce">线上采购减50%: ¥-406</view>
-                    <view class="partern-column-withdraw">合伙人提现60%: ¥406</view>
+                    <view class="partner-column-withdraw">合伙人提现60%: ¥406</view>
                 </view>
             </view>
         </view>

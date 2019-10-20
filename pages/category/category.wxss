@@ -81,8 +81,9 @@
 }
 
 .partner-column-reduce {
-  color: ;
+  color: #9b9595;
 }
 
 .partner-column-withdraw {
+  color: #db2323;
 }
