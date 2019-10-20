@@ -10,10 +10,10 @@
             <image class="product-image" mode="center" src="https://via.placeholder.com/137x137" />
             <view class="product-description">
                 <view class="product-title">国产(CHN)水晶矿优化厚壁小茶具</view>
-                <view class="product-price"></view>
+                <view class="product-price">¥812</view>
                 <view class="partner-column">
-                    <view class="partner-column-reduce"></view>
-                    <view class="partern-column-withdraw"></view>
+                    <view class="partner-column-reduce">线上采购减50%: ¥-406</view>
+                    <view class="partern-column-withdraw">合伙人提现60%: ¥406</view>
                 </view>
             </view>
         </view>

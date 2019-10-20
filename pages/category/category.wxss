@@ -1,6 +1,7 @@
 /* pages/category/category.wxss */
 .page-body {
   position: relative;
+  padding-top: 30rpx;
   background: #eee;
 }
 
@@ -37,6 +38,7 @@
 
 .product-item {
   display: flex;
+  margin-bottom: 25rpx;
   /* background-color: aqua; */
 }
 
@@ -45,10 +47,42 @@
   height: 274rpx;
   margin-left: 47rpx;
   flex-shrink: 0;
+  border-radius: 5rpx;
+  box-shadow: 0 0 0.8rem gray;
 }
 
 .product-description {
   margin-left: 30rpx;
   display: flex;
   flex-flow: column;
+}
+
+.product-title {
+  font-size: 25rpx;
+  line-height: 25rpx;
+  padding-right: 50rpx;
+  padding-top: 40rpx;
+}
+
+.product-price {
+  font-size: 38rpx;
+  line-height: 38rpx;
+  padding-top: 25rpx;
+}
+
+.partner-column {
+  padding-top: 34rpx;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  font-size: 21rpx;
+  line-height: 21rpx;
+  height: 62rpx;
+}
+
+.partner-column-reduce {
+  color: ;
+}
+
+.partner-column-withdraw {
 }
