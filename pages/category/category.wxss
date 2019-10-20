@@ -46,7 +46,7 @@
   height: 274rpx;
   margin-left: 47rpx;
   flex-shrink: 0;
-  border-radius: 5rpx;
+  border-radius: 20rpx;
   box-shadow: 0 0 0.8rem gray;
 }
 

@@ -1,13 +1,13 @@
 <!-- pages/category/category.wxml -->
 <view class="page-body">
     <view class="side-bar">
-        <view class="category-item {{currentCategory === index ? 'active' : ''}}" wx:for="{{productInfo}}" bindtap="clickTap" data-ind="{{index}}" activeClass="active">
+        <view class="category-item {{currentCategory === index ? 'active' : ''}}" wx:for="{{productInfo}}" wx:key="{{index}}" bindtap="clickTap" data-ind="{{index}}" activeClass="active">
             <view class="category-title">{{item.typeName}}</view>
         </view>
     </view>
     <view class="page-content">
-        <view class="product-item" wx:for="{{productInfo[0].products}}" wx:for-index="productIdx" wx:for-item="productItem">
-            <image class="product-image" mode="center" src="{{productItem.url}}" />
+        <view class="product-item" wx:for="{{productInfo[0].products}}" wx:key="{{productIdx}}" wx:for-index="productIdx" wx:for-item="productItem">
+            <image class="product-image" mode="aspectFill" src="{{productItem.url}}" />
             <view class="product-description">
                 <view class="product-title">{{productItem.name}}</view>
                 <view class="product-price">¥{{productItem.price}}</view>

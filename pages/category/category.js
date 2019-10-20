@@ -19,7 +19,8 @@ Page({
           products: [
             {
               name: "国产(CHN)水晶矿优化厚壁小茶具",
-              url: "https://via.placeholder.com/137x137",
+              url:
+                "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1539.JPG",
               price: 812,
               percentageOfDiscount: 50,
               priceDiscount: -406,
@@ -30,7 +31,17 @@ Page({
         },
         {
           typeName: "水晶家私",
-          products: []
+          products: [
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url: "https://via.placeholder.com/137x137",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
+            }
+          ]
         },
         {
           typeName: "水晶首饰",
