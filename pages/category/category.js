@@ -93,13 +93,57 @@ Page({
           typeName: "水晶家私",
           products: [
             {
-              name: "",
-              url: "",
-              price: 0,
-              percentageOfDiscount: 0,
-              priceDiscount: 0,
-              percentageOfWithdraw: 0,
-              priceWithdraw: 0
+              name: "国产(CHN)水晶矿优化去痣养生藤制家私",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1561.JPG",
+              price: 1250,
+              percentageOfDiscount: 50,
+              priceDiscount: -625,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 750
+            },
+            {
+              name: "国产(CHN)水晶矿优化去痣养生藤制家私",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1562.JPG",
+              price: 1250,
+              percentageOfDiscount: 50,
+              priceDiscount: -625,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 750
+            },
+            {
+              name: "国产(CHN)水晶矿优化去痣养生藤制家私",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1563.JPG",
+              price: 1250,
+              percentageOfDiscount: 50,
+              priceDiscount: -625,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 750
+            },
+            {
+              name: "国产(CHN)水晶矿优化去痣养生藤制家私",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1564.JPG",
+              price: 1250,
+              percentageOfDiscount: 50,
+              priceDiscount: -625,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 750
+            },
+            {
+              name: "国产(CHN)水晶矿优化去痣养生藤制家私",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1565.JPG",
+              price: 1250,
+              percentageOfDiscount: 50,
+              priceDiscount: -625,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 750
+            }, {
+              name: "国产(CHN)水晶矿优化去痣养生藤制家私",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1566.JPG",
+              price: 1250,
+              percentageOfDiscount: 50,
+              priceDiscount: -625,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 750
             }
           ]
         },
@@ -107,13 +151,58 @@ Page({
           typeName: "水晶首饰",
           products: [
             {
-              name: "",
-              url: "",
-              price: 0,
-              percentageOfDiscount: 0,
-              priceDiscount: 0,
-              percentageOfWithdraw: 0,
-              priceWithdraw: 0
+              name: "国产(CHN)水晶矿优化手链",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1571.JPG",
+              price: 200,
+              percentageOfDiscount: 50,
+              priceDiscount: -100,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 120
+            },
+            {
+              name: "国产(CHN)水晶矿优化手链",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1572.JPG",
+              price: 200,
+              percentageOfDiscount: 50,
+              priceDiscount: -100,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 120
+            },
+            {
+              name: "国产(CHN)水晶矿优化手链",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1573.JPG",
+              price: 200,
+              percentageOfDiscount: 50,
+              priceDiscount: -100,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 120
+            },
+            {
+              name: "国产(CHN)水晶矿优化手链",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1574.JPG",
+              price: 200,
+              percentageOfDiscount: 50,
+              priceDiscount: -100,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 120
+            },
+            {
+              name: "国产(CHN)水晶矿优化手链",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1575.JPG",
+              price: 200,
+              percentageOfDiscount: 50,
+              priceDiscount: -100,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 120
+            },
+            {
+              name: "国产(CHN)水晶矿优化手链",
+              url: "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1576.JPG",
+              price: 200,
+              percentageOfDiscount: 50,
+              priceDiscount: -100,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 120
             }
           ]
         }

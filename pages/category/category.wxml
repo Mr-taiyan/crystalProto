@@ -6,7 +6,7 @@
         </view>
     </view>
     <view class="page-content">
-        <view class="product-item" wx:for="{{productInfo[0].products}}" wx:key="{{productIdx}}" wx:for-index="productIdx" wx:for-item="productItem">
+        <view class="product-item" wx:for="{{productInfo[2].products}}" wx:key="{{productIdx}}" wx:for-index="productIdx" wx:for-item="productItem">
             <image class="product-image" mode="aspectFill" src="{{productItem.url}}" />
             <view class="product-description">
                 <view class="product-title">{{productItem.name}}</view>
