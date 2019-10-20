@@ -2,7 +2,7 @@
 .page-body {
   position: relative;
   padding-top: 30rpx;
-  background: #eee;
+  background: #d5d5d6;
 }
 
 .side-bar {
@@ -10,7 +10,8 @@
   left: 0;
   top: 0;
   width: 122rpx;
-  background: red;
+  height: 100%;
+  background: white;
 }
 
 .category-item {
@@ -26,7 +27,7 @@
 }
 
 .active {
-  background: greenyellow;
+  background: #d5d5d6;
 }
 
 .page-content {
@@ -47,7 +48,7 @@
   margin-left: 47rpx;
   flex-shrink: 0;
   border-radius: 20rpx;
-  box-shadow: 0 0 0.8rem gray;
+  box-shadow: 0 0 1rem gray;
 }
 
 .product-description {
