@@ -66,7 +66,7 @@ Page({
   onShareAppMessage: function() {},
 
   clickTap(event) {
-    let target = event.target;
+    let target = event.currentTarget;
     let dataset = target.dataset;
     let index = dataset.ind;
 

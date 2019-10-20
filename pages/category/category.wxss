@@ -27,3 +27,10 @@
 .active {
   background: greenyellow;
 }
+
+.page-content {
+  padding-left: 122rpx;
+  padding-top: 5rpx;
+  display: flex;
+  flex-flow: column;
+}
