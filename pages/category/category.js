@@ -93,19 +93,29 @@ Page({
           typeName: "水晶家私",
           products: [
             {
-              name: "国产(CHN)水晶矿优化厚壁小茶具",
-              url: "https://via.placeholder.com/137x137",
-              price: 812,
-              percentageOfDiscount: 50,
-              priceDiscount: -406,
-              percentageOfWithdraw: 60,
-              priceWithdraw: 406
+              name: "",
+              url: "",
+              price: 0,
+              percentageOfDiscount: 0,
+              priceDiscount: 0,
+              percentageOfWithdraw: 0,
+              priceWithdraw: 0
             }
           ]
         },
         {
           typeName: "水晶首饰",
-          products: []
+          products: [
+            {
+              name: "",
+              url: "",
+              price: 0,
+              percentageOfDiscount: 0,
+              priceDiscount: 0,
+              percentageOfWithdraw: 0,
+              priceWithdraw: 0
+            }
+          ]
         }
       ]
     });
