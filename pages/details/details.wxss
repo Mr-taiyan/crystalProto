@@ -81,7 +81,7 @@ image {
 }
 .product-introduction{
   font-size: 35rpx;
-  padding-top: 75rpx;
+  padding: 75rpx 0 34rpx 0;
 }
 .img-introduction{
   display: flex;
