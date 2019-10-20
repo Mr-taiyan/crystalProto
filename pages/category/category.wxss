@@ -67,6 +67,7 @@
   font-size: 38rpx;
   line-height: 38rpx;
   padding-top: 25rpx;
+  color: #ff5000;
 }
 
 .partner-column {
@@ -80,9 +81,9 @@
 }
 
 .partner-column-reduce {
-  color: #9b9595;
+  color: #616060;
 }
 
 .partner-column-withdraw {
-  color: #db2323;
+  color: #000;
 }

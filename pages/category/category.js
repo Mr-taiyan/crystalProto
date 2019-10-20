@@ -26,6 +26,66 @@ Page({
               priceDiscount: -406,
               percentageOfWithdraw: 60,
               priceWithdraw: 406
+            },
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url:
+                "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1540.JPG",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
+            },
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url:
+                "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1541.JPG",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
+            },
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url:
+                "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1542.JPG",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
+            },
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url:
+                "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1545.JPG",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
+            },
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url:
+                "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1544.JPG",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
+            },
+            {
+              name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url:
+                "https://gitee.com/cty9388/crystalProto/raw/master/images/pics/IMG_1543.JPG",
+              price: 812,
+              percentageOfDiscount: 50,
+              priceDiscount: -406,
+              percentageOfWithdraw: 60,
+              priceWithdraw: 406
             }
           ]
         },
