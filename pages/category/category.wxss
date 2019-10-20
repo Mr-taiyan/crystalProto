@@ -34,3 +34,21 @@
   display: flex;
   flex-flow: column;
 }
+
+.product-item {
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.product-image {
+  width: 274rpx;
+  height: 274rpx;
+  margin-left: 47rpx;
+  flex-shrink: 0;
+}
+
+.product-description {
+  margin-left: 30rpx;
+  display: flex;
+  flex-flow: column;
+}

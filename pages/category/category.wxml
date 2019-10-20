@@ -7,9 +7,9 @@
     </view>
     <view class="page-content">
         <view class="product-item">
-            <image class="product-image" />
+            <image class="product-image" mode="center" src="https://via.placeholder.com/137x137" />
             <view class="product-description">
-                <view class="product-title"></view>
+                <view class="product-title">国产(CHN)水晶矿优化厚壁小茶具</view>
                 <view class="product-price"></view>
                 <view class="partner-column">
                     <view class="partner-column-reduce"></view>
