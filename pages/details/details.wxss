@@ -18,7 +18,6 @@ image {
 }
 
 .detail-img {
-  background: green;
 }
 
 .detail-img image {
@@ -79,25 +78,25 @@ image {
 .product-title {
   font-size: 35rpx;
 }
-.product-introduction{
+.product-introduction {
   font-size: 35rpx;
   padding: 75rpx 0 34rpx 0;
 }
-.img-introduction{
+.img-introduction {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.img-introduction image{
+.img-introduction image {
   width: 550rpx;
 }
-.footer{
+.footer {
   width: 100%;
   height: 200rpx;
   text-align: center;
   color: #7c7a7a;
 }
-.footer-title{
+.footer-title {
   padding: 50rpx 0 120rpx 0;
-  background-color: #e2dcdc
+  background-color: #e2dcdc;
 }

@@ -1,1 +1,5 @@
 /* pages/custom/custom.wxss */
+view {
+  margin-top: 200rpx;
+  text-align: center;
+}
