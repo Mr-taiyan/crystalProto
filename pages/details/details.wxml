@@ -25,4 +25,7 @@
         <image src="{{item}}" mode="widthFix"  ></image>
        </view>
     </view>
+    <view class="footer">
+    <view class="footer-title">Copyright © FALESIM</view>
+  </view>
 </view>

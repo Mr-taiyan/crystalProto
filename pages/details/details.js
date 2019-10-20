@@ -20,7 +20,15 @@ Page({
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-2.png",
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-3.png",
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-4.png",
-      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-5.png"
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-5.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-6.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-7.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-8.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-9.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-10.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-11.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-12.png",
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-13.png"
       
     ]
   },

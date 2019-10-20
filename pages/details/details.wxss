@@ -91,3 +91,13 @@ image {
 .img-introduction image{
   width: 550rpx;
 }
+.footer{
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  color: #7c7a7a;
+}
+.footer-title{
+  padding: 50rpx 0 120rpx 0;
+  background-color: #e2dcdc
+}
