@@ -19,6 +19,7 @@ Page({
           products: [
             {
               name: "国产(CHN)水晶矿优化厚壁小茶具",
+              url: "https://via.placeholder.com/137x137",
               price: 812,
               percentageOfDiscount: 50,
               priceDiscount: -406,
