@@ -1,0 +1,25 @@
+<!-- pages/category/category.wxml -->
+<view class="page-body">
+    <view class="side-bar">
+        <view class="category-item {{currentCategory === index ? 'active' : ''}}" wx:for="{{productInfo}}" wx:key="{{index}}" bindtap="clickTap" data-ind="{{index}}" activeClass="active">
+            <view class="category-title">{{item.typeName}}</view>
+        </view>
+    </view>
+    <view class="page-content">
+        <view class="product-item" wx:for="{{productInfo[currentCategory].products}}" wx:key="{{productIdx}}" wx:for-index="productIdx" wx:for-item="productItem">
+            <image class="product-image" mode="aspectFill" src="{{productItem.url}}" />
+            <view class="product-description">
+                <view class="product-title">{{productItem.name}}</view>
+                <view class="product-price">¥{{productItem.price}}</view>
+                <view class="partner-column">
+                    <view class="partner-column-reduce">
+                        线上采购减{{productItem.percentageOfDiscount}}%: ¥{{productItem.priceDiscount}}
+                    </view>
+                    <view class="partner-column-withdraw">
+                        合伙人提现{{productItem.percentageOfWithdraw}}%: ¥{{productItem.priceWithdraw}}
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
