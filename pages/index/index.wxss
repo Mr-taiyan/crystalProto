@@ -47,11 +47,32 @@ swiper-item image{
   color: #616060;
   
 }
-.title image{
-  width: 100%;
+
+.title {
+  width: 750rpx;
   height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.title .title-hot{
+  font-size: 39rpx;
+  margin-left: 40rpx;
+  color: #000;
+}
+.title .title-lookall{
+  font-size: 26rpx;
+  margin-right: 50rpx;
+  color: #e9002f;
+}
+.scroll-container{
+  width: 750rpx;
+  height: 483rpx;
 }
 .gallery {
+  height: 100%;
   display: flex;
   margin-left: 39rpx;
   margin-top: 15rpx;
@@ -59,12 +80,14 @@ swiper-item image{
 }
 
 .img-block {
-  width: 314rpx;
-  height: 480rpx;
+  width: 260rpx;
+  height: 260rpx;
   margin-right: 27rpx;
 }
 
 .img-block image {
+  width: 260rpx;
+  height: 260rpx;
   border-radius: 20rpx;
   box-shadow: 0 0 0.5em #5a5959;
   margin-right: 39rpx;

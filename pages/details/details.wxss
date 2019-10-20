@@ -79,3 +79,15 @@ image {
 .product-title {
   font-size: 35rpx;
 }
+.product-introduction{
+  font-size: 35rpx;
+  padding-top: 75rpx;
+}
+.img-introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-introduction image{
+  width: 550rpx;
+}
