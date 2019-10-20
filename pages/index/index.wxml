@@ -31,12 +31,13 @@
   </view>
   <view class="popular-stuffs">
     <view class="title">
-      <image src="/images/title-popular.png" mode="widthFix" />
+     <view class="title-hot">热销排行</view>
+     <view class="title-lookall">查看全部 ></view>
     </view>
-    <scroll-view scroll-x="{{true}}">
+    <scroll-view scroll-x="{{true}}"class="scroll-container">
       <view class="gallery">
         <view class="img-block" wx:for="{{images1}}" wx:key="*this" bindtap="onTapPic" data-src="{{item}}">
-          <image src="{{item}}" mode="widthFix" style="width:314rpx " />
+          <image src="{{item}}" mode="aspectFill"  />
           <view>产品</view>
         </view>
       </view>
@@ -44,12 +45,13 @@
   </view>
   <view class="popular-stuffs">
     <view class="title">
-      <image src="/images/nav1.png" mode="widthFix" />
+     <view class="title-hot">水晶家具</view>
+     <view class="title-lookall">查看全部 ></view>
     </view>
-    <scroll-view scroll-x="{{true}}">
+    <scroll-view scroll-x="{{true}}"class="scroll-container">
       <view class="gallery">
-        <view class="img-block" wx:for="{{images1}}" wx:key="*this">
-          <image src="{{item}}" mode="widthFix" style="width:314rpx " />
+        <view class="img-block" wx:for="{{images1}}" wx:key="*this" bindtap="onTapPic" data-src="{{item}}">
+          <image src="{{item}}" mode="aspectFill"  />
           <view>产品</view>
         </view>
       </view>
@@ -57,12 +59,13 @@
   </view>
   <view class="popular-stuffs">
     <view class="title">
-      <image src="/images/nav2.png" mode="widthFix" />
+     <view class="title-hot">水晶茶具</view>
+     <view class="title-lookall">查看全部 ></view>
     </view>
-    <scroll-view scroll-x="{{true}}">
+    <scroll-view scroll-x="{{true}}"class="scroll-container">
       <view class="gallery">
-        <view class="img-block" wx:for="{{images1}}" wx:key="*this">
-          <image src="{{item}}" mode="widthFix" style="width:314rpx " />
+        <view class="img-block" wx:for="{{images1}}" wx:key="*this" bindtap="onTapPic" data-src="{{item}}">
+          <image src="{{item}}" mode="aspectFill"  />
           <view>产品</view>
         </view>
       </view>
