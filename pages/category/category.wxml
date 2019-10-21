@@ -1,8 +1,10 @@
 <!-- pages/category/category.wxml -->
 <view class="page-body">
     <view class="side-bar">
-        <view class="category-item {{currentCategory === index ? 'active' : ''}}" wx:for="{{productInfo}}" wx:key="{{index}}" bindtap="clickTap" data-ind="{{index}}" activeClass="active">
-            <view class="category-title">{{item.typeName}}</view>
+        <view class="category-item-lowerlayer">
+            <view class="category-item {{currentCategory === index ? 'active' : ''}} {{(currentCategory - index) === -1 ? 'beneath-active' : ''}} {{(currentCategory - index) === 1 ? 'above-active' : ''}}" wx:for="{{productInfo}}" wx:key="{{index}}" bindtap="clickTap" data-ind="{{index}}" activeClass="active">
+                <view class="category-title">{{item.typeName}}</view>
+            </view>
         </view>
     </view>
     <view class="page-content">
