@@ -77,5 +77,21 @@ Page({
   /**
    * Called when user click on the top right corner to share
    */
-  onShareAppMessage: function() {}
+  onShareAppMessage: function() {},
+
+  clickToPreview(event) {
+    let currentTarget = event.currentTarget;
+    let dataset = currentTarget.dataset;
+    let index = dataset.idx;
+
+    let addressGroup = [this.data.imgSrc, ...this.data.introduction1];
+
+    wx.previewImage({
+      current: addressGroup[index],
+      urls: [...addressGroup],
+      success: result => {},
+      fail: () => {},
+      complete: () => {}
+    });
+  }
 });
