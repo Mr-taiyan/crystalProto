@@ -5,7 +5,7 @@ Page({
    */
   data: {
     navTitle: "",
-    navBackground: "gray",
+    navBackground: "transparent",
     navColor: "",
     navLoading: false,
     imgSrc: "",
