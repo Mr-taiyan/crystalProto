@@ -8,14 +8,20 @@ Page({
     navBackground: "gray",
     navColor: "",
     navLoading: false,
-    imgSrc:
-      "https://gitee.com/cty9388/crystalProto/raw/master/images/chairs.JPG",
+    imgSrc: "",
     price: 22800,
     priceDiscountPercentage: 50,
     priceDiscount: -11400,
     priceProfitPercentage: 60,
     priceProfit: 11400,
-    introduction1:[
+    introduction1: []
+  },
+
+  /**
+   * Lifecycle function--Called when page load
+   */
+  onLoad: function(options) {
+    let contentImgs = [
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-1.png",
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-2.png",
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-3.png",
@@ -29,14 +35,14 @@ Page({
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-11.png",
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-12.png",
       "https://gitee.com/cty9388/crystalProto/raw/master/images/details/1-13.png"
-      
-    ]
+    ];
+    let productImg =
+      "https://gitee.com/cty9388/crystalProto/raw/master/images/chairs.JPG";
+    this.setData({
+      imgSrc: productImg,
+      introduction1: contentImgs
+    });
   },
-
-  /**
-   * Lifecycle function--Called when page load
-   */
-  onLoad: function(options) {},
 
   /**
    * Lifecycle function--Called when page is initially rendered
